@@ -20,10 +20,13 @@
 [-] check CommonsCollections8
 [-] check CommonsCollections9
 [-] check CommonsCollections10
+[*] find: CommonsCollections10 can be use
 [-] check Groovy1
+[*] find: Groovy1 can be use
 [-] check JSON1
 [*] find: JSON1 can be use
 [-] check Spring1
+[*] find: Spring1 can be use
 [-] check Spring2
 [-] check JRMPClient
 [*] find: JRMPClient can be use
