@@ -2,7 +2,7 @@
 
 ```
 2020-04-24:
-download_url:  https://xz.aliyun.com/forum/upload/affix/shiro_tool.zip
+集成原生ysoserial版本,更稳定,download_url:  https://xz.aliyun.com/forum/upload/affix/shiro_tool.zip
 
 
 
