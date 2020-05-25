@@ -9,7 +9,6 @@ https://xz.aliyun.com/forum/upload/affix/shiro_tool.zip
 
 
 java -jar shiro_tool.jar https://xx.xx.xx.xx
-nslookup/ping1/ping2/curl--> use nslookup dnslog.com check./use ping -c 1 dnslog.com check(default)./use ping -n 1 dnslog.com check./use curl dnslog.com check.
 nocheck --> skip check target is shiro or not.
 key= --> set a shiro key.
 req= --> request body file 抓包保存到文件里，这里写文件名
