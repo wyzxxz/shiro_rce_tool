@@ -14,7 +14,7 @@ key= --> set a shiro key.
 req= --> request body file 抓包保存到文件里，这里写文件名
 keys= --> keys file  自定义key的文件，key按行分割，即每行写一个
 
-[admin@ shiro]java -cp shiro_tool.jar Shiro https://xx.xx.xx.xx/          
+[admin@ shiro]java -cp shiro_tool.jar https://xx.xx.xx.xx/          
 [-] target: https://xx.xx.xx.xx/
 [-] target is use shiro
 [-] start guess shiro key.
