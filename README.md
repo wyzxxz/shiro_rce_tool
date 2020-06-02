@@ -3,7 +3,7 @@
 ```
 下载地址：
 2020-05-26:
-https://xz.aliyun.com/forum/upload/affix/shiro_tool.zip
+有监管审查，暂时屏蔽下载地址。
 
 原来的停止服务了，请下载最新版本。
 
