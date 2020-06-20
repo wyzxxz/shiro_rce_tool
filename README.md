@@ -2,6 +2,9 @@
 
 ```
 下载地址：
+晚点更新一些多方式回显的版本以及优化一些细节的版本。
+
+
 2020-05-26:
 有监管审查，暂时屏蔽下载地址。
 
@@ -14,7 +17,7 @@ key= --> set a shiro key.
 req= --> request body file 抓包保存到文件里，这里写文件名
 keys= --> keys file  自定义key的文件，key按行分割，即每行写一个
 
-[admin@ shiro]java -cp shiro_tool.jar https://xx.xx.xx.xx/          
+[admin@ shiro]java - shiro_tool.jar https://xx.xx.xx.xx/          
 [-] target: https://xx.xx.xx.xx/
 [-] target is use shiro
 [-] start guess shiro key.
