@@ -1,6 +1,7 @@
 # shiro_rce
 
 ```
+老版本的下载地址：https://xz.aliyun.com/forum/upload/affix/shiro_tool.zip
 下载地址：
 晚点更新一些多方式回显的版本以及优化一些细节的版本。
 
