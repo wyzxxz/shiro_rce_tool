@@ -4,7 +4,7 @@
 下载地址：https://xz.aliyun.com/forum/upload/affix/shiro_tool.zip
 2020-08-21: 
 新增了cc8 cc9 cc10利用链
-新增了可输出生成的payload模式，在执行命令的时候输入output=on即可。
+新增了输出payload模式，在执行命令的时候输入output=on即可。
 参考下面的示例
 
 下载地址：
