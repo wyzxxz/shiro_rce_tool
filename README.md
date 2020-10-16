@@ -1,7 +1,7 @@
 # shiro_rce
 
 ```
-下载地址：https://xz.aliyun.com/forum/upload/affix/shiro_tool.zip
+下载地址：https://xz.aliyun.com/forum/upload/affix/shiro_tool.zip   解压密码: wyzxxz
 
 2020-10-16：
 放出来一些功能：
