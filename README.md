@@ -31,6 +31,7 @@ nocheck     --> skip check target is shiro or not.
 skip        --> all gadget default can be use
 randomagent --> random useragent
 useragent=  --> set useragent
+cookiename= --> default: rememberMe      不是rememberMe的时候用
 x=          --> print result
 cmd=        --> set command to run
 dcmd=       --> set command to run, command format base64 string
