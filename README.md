@@ -7,7 +7,7 @@
 新增自定义或随机useragent
 randomagent --> random useragent
 useragent=  --> set useragent
-
+cookiename= --> default: rememberMe  
 
 2020-10-16：
 放出来一些功能：
