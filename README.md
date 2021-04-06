@@ -12,7 +12,7 @@ cookiename= --> default: rememberMe
 2020-10-16：
 放出来一些功能：
 1、spring/tomcat回显，执行命令的时候，x=whoami 就行
-2、批量检测是否shiro, java -cp shiro_tool.jar shiro.Check http://url 或者 java -cp shiro_tool.jar shiro.Check urls=文件
+2、批量检测是否shiro
 3、目标服务器不出网的情况下探测
 
 
@@ -25,7 +25,7 @@ cookiename= --> default: rememberMe
 2020-05-26:
 原来的停止服务了，请下载最新版本。
 
-
+> java -jar shiro_tool.jar
 Usage: java -jar shiro_tool.jar https://xx.xx.xx.xx
 nocheck     --> skip check target is shiro or not.
 skip        --> all gadget default can be use
