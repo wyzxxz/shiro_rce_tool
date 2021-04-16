@@ -38,7 +38,8 @@ dcmd=       --> set command to run, command format base64 string
 key=        --> set a shiro key
 req=        --> request body file   request body file 抓包保存到文件里，这里写文件名
 keys=       --> keys file       自定义key的文件，key按行分割，即每行写一个
-java -cp shiro_tool.jar shiro.Check
+java -cp shiro_tool.jar shiro.Check urls=批量url文件
+java -cp shiro_tool.jar shiro.Check http://www.shiro.com
 
 
 [admin@ shiro]java - shiro_tool.jar https://xx.xx.xx.xx/          
