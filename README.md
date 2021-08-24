@@ -3,6 +3,13 @@
 ```
 下载地址：https://xz.aliyun.com/forum/upload/affix/shiro_tool.zip  
 
+add 
+CommonsBeanutils2
+CommonsCollectionsK1
+CommonsCollectionsK2
+CommonsCollectionsK3
+CommonsCollectionsK4
+
 2021-03-31：
 新增自定义或随机useragent
 randomagent --> random useragent
@@ -62,6 +69,10 @@ java -cp shiro_tool.jar shiro.Check http://www.shiro.com
 [-] check CommonsCollections8
 [-] check CommonsCollections9
 [-] check CommonsCollections10
+[-] check CommonsCollectionsK1
+[-] check CommonsCollectionsK2
+[-] check CommonsCollectionsK3
+[-] check CommonsCollectionsK4
 [-] check Groovy1
 [*] find: Groovy1 can be use
 [-] check JSON1
