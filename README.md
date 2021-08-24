@@ -51,6 +51,7 @@ java -cp shiro_tool.jar shiro.Check http://www.shiro.com
 [*] find: URLDNS can be use
 [-] check CommonsBeanutils1
 [*] find: CommonsBeanutils1 can be use
+[-] check CommonsBeanutils2
 [-] check CommonsCollections1
 [-] check CommonsCollections2
 [-] check CommonsCollections3
