@@ -3,6 +3,12 @@
 ```
 下载地址：https://xz.aliyun.com/forum/upload/affix/shiro_tool.zip  
 
+2021-08-26
+补充key，目前 195 个。
+感谢 @星光 @yaoxiaodai 提供的一些key
+
+
+2021-08-26
 add 
 CommonsBeanutils2
 CommonsCollectionsK1
