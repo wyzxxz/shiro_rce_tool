@@ -3,7 +3,7 @@
 ```
 声明： 此工具仅用于企业安全人员自查验证自身企业资产的安全风险，或有合法授权的安全测试，请勿用于其他用途，如有，后果自负。
 
-下载地址：https://xz.aliyun.com/forum/upload/affix/shiro_tool.zip  
+download_url：https://toolaffix.oss-cn-beijing.aliyuncs.com/shiro_tool.zip
 
 2021-08-26
 补充key，目前 203 个。
