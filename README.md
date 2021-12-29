@@ -3,7 +3,7 @@
 ```
 声明： 此工具仅用于企业安全人员自查验证自身企业资产的安全风险，或有合法授权的安全测试，请勿用于其他用途，如有，后果自负。
 
-download_url：https://toolaffix.oss-cn-beijing.aliyuncs.com/shiro_tool.zip
+download_url：https://toolaffix.oss-cn-beijing.aliyuncs.com/shiro_tool.jar
 
 2021-08-26
 补充key，目前 203 个。
@@ -45,6 +45,7 @@ Usage: java -jar shiro_tool.jar https://xx.xx.xx.xx
 nocheck     --> skip check target is shiro or not.
 skip        --> all gadget default can be use
 randomagent --> random useragent
+notcheckall --> not check all gadget
 useragent=  --> set useragent
 cookiename= --> default: rememberMe      不是rememberMe的时候用
 x=          --> print result
