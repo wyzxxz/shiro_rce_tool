@@ -58,7 +58,7 @@ java -cp shiro_tool.jar shiro.Check urls=批量url文件
 java -cp shiro_tool.jar shiro.Check http://www.shiro.com
 
 
-[admin@ shiro]java - shiro_tool.jar https://xx.xx.xx.xx/          
+[admin@ shiro] java -jar shiro_tool.jar https://xx.xx.xx.xx/          
 [-] target: https://xx.xx.xx.xx/
 [-] target is use shiro
 [-] start guess shiro key.
