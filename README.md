@@ -5,40 +5,13 @@
 
 download_url：https://toolaffix.oss-cn-beijing.aliyuncs.com/shiro_tool.jar
 
-2021-08-26
-补充key，目前 203 个。
-感谢 @星光 @yaoxiaodai 提供的一些key
 
-
-2021-08-26
-add 
-CommonsBeanutils2
-CommonsCollectionsK1
-CommonsCollectionsK2
-CommonsCollectionsK3
-CommonsCollectionsK4
-
-2021-03-31：
-新增自定义或随机useragent
-randomagent --> random useragent
-useragent=  --> set useragent
-cookiename= --> default: rememberMe  
-
-2020-10-16：
-放出来一些功能：
+优化一些功能：
 1、spring/tomcat回显，执行命令的时候，x=whoami 就行
 2、批量检测是否shiro
 3、目标服务器不出网的情况下探测
+4、key 目前 203 个。
 
-
-2020-08-21: 
-新增了cc8 cc9 cc10利用链
-新增了输出payload模式，在执行命令的时候输入output=on即可。
-参考下面的示例
-
-
-2020-05-26:
-原来的停止服务了，请下载最新版本。
 
 > java -jar shiro_tool.jar
 Usage: java -jar shiro_tool.jar https://xx.xx.xx.xx
