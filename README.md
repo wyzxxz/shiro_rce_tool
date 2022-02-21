@@ -11,6 +11,7 @@ download_url：https://toolaffix.oss-cn-beijing.aliyuncs.com/shiro_tool.jar
 2、批量检测是否shiro
 3、目标服务器不出网的情况下探测
 4、key 目前 401 个。
+5、默认会加载当前目录下的 keys.txt 文件，可以把key放到keys.txt里，和该jar放同一个目录，会自动加载。
 
 
 > java -jar shiro_tool.jar
