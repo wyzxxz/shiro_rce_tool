@@ -10,7 +10,7 @@ download_url：https://toolaffix.oss-cn-beijing.aliyuncs.com/shiro_tool.jar
 1、spring/tomcat回显，执行命令的时候，x=whoami 就行
 2、批量检测是否shiro
 3、目标服务器不出网的情况下探测
-4、key 目前 203 个。
+4、key 目前 401 个。
 
 
 > java -jar shiro_tool.jar
