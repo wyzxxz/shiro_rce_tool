@@ -3,7 +3,7 @@
 ```
 声明： 此工具仅用于企业安全人员自查验证自身企业资产的安全风险，或有合法授权的安全测试，请勿用于其他用途，如有，后果自负。
 
-download_url：https://toolaffix.oss-cn-beijing.aliyuncs.com/wyzxxz/20220802/shiro_tool.jar
+download_url：https://toolaffix.oss-cn-beijing.aliyuncs.com/wyzxxz/20221128/shiro_tool.jar
 
 
 优化一些功能：
@@ -18,6 +18,7 @@ download_url：https://toolaffix.oss-cn-beijing.aliyuncs.com/wyzxxz/20220802/shi
 Usage: java -jar shiro_tool.jar https://xx.xx.xx.xx
 nocheck     --> skip check target is shiro or not.
 skip        --> all gadget default can be use
+redirect    --> follow redirect default:false
 randomagent --> random useragent
 notcheckall --> not check all gadget
 useragent=  --> set useragent
@@ -28,7 +29,7 @@ dcmd=       --> set command to run, command format base64 string
 key=        --> set a shiro key
 req=        --> request body file   request body file 抓包保存到文件里，这里写文件名
 keys=       --> keys file       自定义key的文件，key按行分割，即每行写一个
-java -cp shiro_tool.jar shiro.Check urls=批量url文件
+java -cp shiro_tool.jar shiro.Check urls=批量url文件  redirect
 java -cp shiro_tool.jar shiro.Check http://www.shiro.com
 
 
